@@ -8,12 +8,21 @@
     align-items: center;
 }
 .header {
+    display: flex;
     width: 80%;
     background-color: tomato;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
+ .logo-avatar {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+ }
 .hero {
 width: 80%;
 background-color: aquamarine;
 height: 700px;
+display: flex;
 }
