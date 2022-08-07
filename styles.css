@@ -1,1 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header {
+    width: 80%;
+    background-color: tomato;
+}
+
+.hero {
+width: 80%;
+background-color: aquamarine;
+height: 700px;
+}
